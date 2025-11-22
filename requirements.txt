@@ -2,7 +2,6 @@ streamlit>=1.20
 librosa>=0.9
 numpy
 matplotlib
-plotly
-pandas
 soundfile
-pillow
+Pillow
+whisper @ git+https://github.com/openai/whisper.git
