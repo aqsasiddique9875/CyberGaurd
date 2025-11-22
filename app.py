@@ -160,7 +160,7 @@ def local_heuristic_classifier(transcription, emotion, features):
 # -----------------------------
 # SVG gauge template (animated needle)
 # -----------------------------
-SVG_TEMPLATE = """
+SVG_TEMPLATE = 
 <div style="width:100%;display:flex;justify-content:center;margin-bottom:8px;">
   <svg viewBox="0 0 200 120" width="{width}" height="{height}">
     <defs>
@@ -186,7 +186,7 @@ SVG_TEMPLATE = """
 <style>
 svg rect {{ transition: transform 1.0s cubic-bezier(.2,.9,.2,1); transform-origin: 100px 100px; }}
 </style>
-"""
+
 
 def render_svg_gauge(value:int, width="320px", height="200px", label="Scam Score"):
     angle = -90 + (value/100.0)*180
